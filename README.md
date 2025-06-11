@@ -3,6 +3,7 @@ This is a port of the Wake Up Calls app on FreePBX for Vanilla Asterisk. Instead
 
 ## Dependencies
 - AGI (res_agi.so)
+- phpagi.php
 - PHP
 - PHP cli
 - pbx_spool.so (which handles .call files in /var/spool/asterisk/outgoing).
