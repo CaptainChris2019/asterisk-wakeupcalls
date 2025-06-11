@@ -23,7 +23,7 @@ The Wake Up Calls app usally relys on FreePBX to schedule the wake up calls. Thi
 * Ensure PHP and php-cli is installed on your system
 * Ensure res_agi.so and pbx_spool.so is loaded
 * Place your preferred wakeup and wakeconfrim.php in /var/lib/asterisk/agi-bin
-* Place the following in the context you use for outgoing calls in your dialplan
+* Place the following in the context you use for outgoing calls in your dialplan:
 ```
 exten => *68,1,Set(__COS_DEST=hotelwakeup)
 exten => *68,n,Set(__COS_TYPE=FC)
