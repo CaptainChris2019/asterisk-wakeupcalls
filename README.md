@@ -10,11 +10,9 @@ This is a port of the Wake Up Calls app on FreePBX for Vanilla Asterisk. Instead
 
 ## Verisons
 There are 3 verisons available:
--15 is a ported from FreePBX 15 and rewritten to support PHP 7.4+. The FreePBX 15 wakeup app does not play hello&this-is-yr-wakeup-call when first dialed, and is a little bit faster. Also, it's wakeconfrim.php has the option to "cancel" the wake up call.
-
--15+16/17 takes the main wakeup app from FreePBX 16/17 and the wakeconfrim.php from FreePBX 15.
-
--16/17 uses the both the main wakeup app and from FreePBX 16/17. The wakeupapp is a better slower, and the wakeconfrim.php only gives the optioins to snooze. However, the call can be canncled by simply hanging up.
+* 15 is a ported from FreePBX 15 and rewritten to support PHP 7.4+. The FreePBX 15 wakeup app does not play hello&this-is-yr-wakeup-call when first dialed, and is a little bit faster. Also, it's wakeconfrim.php has the option to "cancel" the wake up call.
+* 15+16/17 takes the main wakeup app from FreePBX 16/17 and the wakeconfrim.php from FreePBX 15.
+* 16/17 uses the both the main wakeup app and from FreePBX 16/17. The wakeupapp is a better slower, and the wakeconfrim.php only gives the optioins to snooze. However, the call can be canncled by simply hanging up.
 
 ## How it works
 
